@@ -1,0 +1,5 @@
+1) Crie um bloco plsql que leia um salario e acrescente 10% se ele for superior a R$1000
+
+2)Criar uma tabela de funcionarios: nome, fone, salario e cargo.
+O usuário deve informar o código do funcionário e conceder um aumemto baseado no cargo.
+Se gerente aumento de 5%; se supervisro 8%, se operador 10%.
