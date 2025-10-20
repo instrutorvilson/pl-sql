@@ -1,0 +1,21 @@
+DECLARE
+  idade number;   
+  nome varchar(20);
+  msg varchar(10) := 'maior';
+Begin
+  /*DBMS_OUTPUT.PUT_LINE(nome || ' vc tem ' || idade);*/
+ /* nome := '&nome';
+  idade := '&idade';
+  if idade < 18  then
+    msg := 'menor'; 
+  end if;
+  DBMS_OUTPUT.PUT_LINE(nome || ' vc tem ' || idade || ' vc é ' || msg);*/
+  nome := '&nome';
+  idade := '&idade';
+  if idade < 18  then
+    DBMS_OUTPUT.PUT_LINE(nome || ' vc tem ' || idade || ' vc é menor');
+  else
+     DBMS_OUTPUT.PUT_LINE(nome || ' vc tem ' || idade || ' vc é maior');
+  end if;
+  
+End;
