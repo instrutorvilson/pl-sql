@@ -10,3 +10,19 @@ CREATE TABLE historico_salarios (
   salario_novo NUMBER(10,2),
   data_alteracao DATE DEFAULT SYSDATE
 );
+
+Exercício 2 – Cursor com contadores (nível avançado)
+---------------------------------------------------------------
+Crie um bloco que percorra todos os empregados e conte quantos ganham:
+  -> Até 2000;
+  -> Entre 2000 e 4000;
+  -> Acima de 4000;
+ Mostre o total de cada faixa ao final
+
+Exercício 3 – Cursor dentro de cursor (nível avançado)
+-------------
+Crie um relatório que mostre:
+  -> Nome do departamento;
+  -> Nome e salário de cada empregado pertencente a ele.
+
+
