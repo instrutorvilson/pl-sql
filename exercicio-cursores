@@ -1,4 +1,5 @@
 Exercício 1 – Copiar dados para tabela de histórico (nível avançado)
+------------------------------------------------------------------------
  Crie uma tabela historico_salarios para registrar todos os aumentos feitos nos empregados. 
 Use um cursor para percorrer os empregados, aumentar 5% e inserir um registro na tabela de histórico.
 DDL da tabela:
