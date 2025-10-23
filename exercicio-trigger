@@ -1,0 +1,2 @@
+1) criar uma triger na tabela itens_pedido para verificar o estoque ao inserir um item,
+após inserir o item criar uma trigger para atualizar o estoque.
